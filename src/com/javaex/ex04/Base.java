@@ -43,7 +43,7 @@ public class Base {
     }
     
     
-    //메소드일반
+    //메소드 일반
     
     
 }
