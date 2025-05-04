@@ -10,6 +10,9 @@ public class Base {
 	
 	//생성자
 	
+	 public Base() {
+		 
+	 }
 	
 	
 	//메소드-gs
@@ -17,9 +20,13 @@ public class Base {
 	
 	
     public void service(String state) {
-        
-        
-        //코드작성할것
+    	if(state == "낮") {
+    		day();
+    	}else if(state == "밤") {
+    		night();
+    	}else if(state == "오후") {
+    		afternoon();
+    	}
     }
 
     public void day() {
