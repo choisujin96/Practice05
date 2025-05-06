@@ -8,13 +8,16 @@ public class CConverter {
         CConverter.rate = rate;
     }
     
-    public static double toDoller(double won){
-        return won / rate;
+    public static double toDollar(double won){
+        double result = won / rate;
+    	return result;
+    
     }
 
     public static double toKWR(double dollar){
-        return dollar * rate;
+        double result = dollar * rate;
+        return result;
     }
     
-
+ 
 }
